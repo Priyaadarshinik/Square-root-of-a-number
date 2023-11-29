@@ -21,10 +21,15 @@ Program to find the square root for the given number(newton's method) using func
 Developed by: 
 RegisterNumber:  
 */
+def sqrt(b):
+    x=0.5*((b**0.5)+b/(b**0.5))
+    return x
+b=int(input())
+print("Square root of the number:",sqrt(b))
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
+![output](/output1.png)
 
 
 ## Result:
